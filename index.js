@@ -1,4 +1,4 @@
-const serverRooturl = 'https://weddinginvitation.onrender.com/user/';
+const serverRooturl = 'https://uj-server.onrender.com/user/';
 
 document.getElementById('post-contact').addEventListener('submit', (ev) => {
   const newContact = {
