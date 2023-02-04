@@ -10,11 +10,26 @@
 }
 
 .form-data {
-  justify-content: center;
-  width: 350px;
-  margin: 380px auto 0px auto;
+  position:absolute;
+    width:300px;
+    /* height:300px; */
+    /* background:#063; */
+    bottom:0px;
+    right:25%;
+    left:50%;
+    margin-left:-150px;
 }
-.name-field,
+.widthdiv{
+  margin: 10px;
+}
+#send-submit{
+  margin-left: 120px;
+  margin-bottom: 10px;
+}
+#place {
+  margin-left: 3px;
+}
+/* .name-field,
 .date-field,
 .place-field {
   display: block;
@@ -23,9 +38,7 @@
 #name {
   margin-left: 30px;
 }
-#place {
-  margin-left: 34px;
-}
+
 #send-submit {
   margin-left: 140px;
   height: 30px;
@@ -41,4 +54,4 @@ h4 {
 #welMessage {
   margin: 10px;
   color: white;
-}
+} */
